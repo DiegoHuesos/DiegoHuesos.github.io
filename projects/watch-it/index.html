@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Watch-it!</title>
+	<link rel="stylesheet" type="text/css" href="./1-mainPageStyle.css">
+</head>
+<body>
+	<!--Navbar-->
+	<div id="main-header">
+		<div id="logo">
+			<!-- //Cambiar logog a blanco: <a href="#"> <span><img src="./logo.png" style="height: 3.8rem;"> </span> </a> -->
+			<h1>Watch-it!</h1>
+		</div> 	
+		<nav id="navbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#container-categories">Watches</a></li>
+				<li><a href="#video2">Time</a></li>
+				<li><a href="#what-is">About us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<!--Video1-->
+	<video  autoplay muted loop id="video1" width="100%">
+		<source src="./videosWatches/The Painstaking Art of Making a Luxury Watch.mp4" type="video/mp4">
+	</video>
+
+		
+	<!--Watches-Categories-->
+		<div id="container-categories">
+			<div class="subtitle"><h1>Watches</h1></div>
+			
+			<div class="box-category">
+				<div id ="Abstract-img" class="img-category">
+					<img src="./imagesWatches/Watches/AbstractWatches/1.-DALI.gif" alt="Abstract Watches">
+					<h1>ABSTRACT</h1>
+				</div>
+			</div>
+
+			<div class="box-category">
+				<div id ="Wooden-img" class="img-category">
+					<img src="./imagesWatches/Watches/WoodWatches/1.-YEBUSHI.png" alt="Wooden Watches">
+					<h1>WOODEN</h1>
+				</div>
+			</div>
+			
+			<div class="box-category">
+				<div id ="Sport-img" class="img-category">
+					<img src="./imagesWatches/Watches/SportWatches/2. GARMIN.jpg" alt="Sport Watches">
+					<h1>SPORT</h1>
+				</div>
+			</div>
+			
+			
+			<div class="box-category">
+				<div id ="Smart-img" class="img-category">
+					<img src="./imagesWatches/Watches/SmartWatches/2.-Q-EXPLORIST.jpeg" alt="Smart Watches">
+					<h1>SMART</h1>
+				</div>	
+			</div>
+			
+		</div>
+
+	
+
+	<!--Video2:Time-->
+	<video  autoplay muted loop id="video2" width="100%">
+		<source src="./videosWatches/The Value of TIME - One of the Most Motivational Speeches Ever (very powerful!).mp4" type="video/mp4">
+	</video>
+
+
+	<!--About-->
+	<div id="about">
+
+		<div id="what-is">
+			<h1>Watch-it!</h1>
+			<p id="description">We are more than a simple online watch store... we're a new way to understand time! 
+			We are a constant movement and we can't understand movement without time! 
+			We assume that time is life... if we take care of it we take care of our life! 
+			That's why we love to have a watch everytime! In every different situation! </p>
+		</div>
+
+		<div id="sidebar-right">
+			<p>"If you want to understand life, try first to understand time." </p>
+			<img src="./imagesWatches/Diego.png" alt="Diego picture" height="150" width="150">
+			<p>Diego Hernández (CEO)</p>
+		</div>
+	</div>
+
+	<!--Separacion-->
+	<div id="linea"></div>
+
+
+
+	
+
+	<!--Contact-->
+	<div id="contact">
+
+
+	<div id="map">Maps from the office.</div>
+
+		<div id="contact-details">
+
+			
+
+			</div>
+				<h1>Contact</h1>
+				<p>watch-it@gmail.com</p>
+				<p>+55 3478 5643</p>
+				<h1>Follow us</h1>
+			</div>	
+
+			
+
+			<div id="follow-us">
+
+					<div class="cont-sm">
+						<img class="sc-img" src="./imagesWatches/SocialMediaLogos/Facebook1.png">
+					</div>
+					
+					<div class="cont-sm">
+						<img class="sc-img" src="./imagesWatches/SocialMediaLogos/insta1.png">
+					</div>
+					
+					<div class="cont-sm">
+						<img class="sc-img" src="./imagesWatches/SocialMediaLogos/Twitterbird.png">
+					</div>
+						
+			</div>
+
+		</div>	
+		
+		
+	</div>	
+
+
+	
+
+
+
+	<script>
+		function myMap() {
+		var mapOptions = {
+			center: new google.maps.LatLng(51.5, -0.12),
+			zoom: 10,
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		}
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+		</script>
+		
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+	
+
+
+
+	<!--Footer-->
+	<footer id="main-footer">
+		<p>Copyright &copy; Watch-it!</p>
+	</footer>
+
+</body>
+</html>

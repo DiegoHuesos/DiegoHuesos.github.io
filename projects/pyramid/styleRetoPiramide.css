@@ -1,0 +1,42 @@
+/*Diego Hernández Delgado
+    Fecha: 07-11-2018
+    Laboratorio Web
+    Limón & Emi
+    Ejercicio: Reto pirámide
+    CSS File*/
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, Sans-serif;
+    background-image: url("desert.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position:relative;
+}
+
+h1{
+    color: #CD5C5C;
+    font-style: Helvetica;
+    margin:0;
+    padding: 10px;
+   
+    text-align: center;
+}
+
+#input{
+   margin-left:43%;
+}
+
+button{
+    background-color: #CD5C5C;
+    color:white;
+}
+
+#show{
+ 
+    height:80%;
+    width: 100%;
+    text-align: center;
+     
+}

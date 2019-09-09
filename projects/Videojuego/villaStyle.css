@@ -1,0 +1,33 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color:#333;
+	color:#55555;
+	font:normal 16 px Arial, Helvetica, sans-serif;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+  margin-top: 100px;
+  margin-left: 100px;
+	width:80%;
+  height:500px;
+  background-color:#333;
+}
+
+#main-block{
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background-color: #2980b9;
+	color: #fff;
+	padding:15px;
+	box-sizing:border-box;
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+<!--Diego Hernández Delgado
+    Fecha: 07-11-2018
+    Laboratorio Web
+    Limón & Emi
+    Ejercicio: Reto pirámide
+    HTML File-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>RETO PIRÁMIDE</title>
+        <link rel="stylesheet" type="text/css" href="styleRetoPiramide.css">
+    </head>
+
+    <body>
+        <!--H1 : TITLE-->
+        <h1>Pyramide Creator</h1>
+
+        <!--INPUT-->
+        <input  id="input" placeholder="Long base"/>
+
+        <!--BUTTON-->
+        <button type="button" onclick="pyramideCreator()">Generate</button>
+
+        <br>
+        <br>
+        
+        <!--DIV-->
+        <div id="show"></div>
+
+        <!--SCRIPT-->
+        <script type="text/javascript">
+                
+            function pyramideCreator(){
+
+                var base = document.getElementById("input").value;
+                    
+                var bricks="";
+
+                for(var i=1; i<=base; i++){
+                        
+                    for(var e=1; e<=i; e++){
+
+                        bricks+="[__]";
+
+                    }
+
+                    bricks+="<br>";
+                }
+                   
+                    document.getElementById("show").innerHTML=bricks;
+                
+            }
+
+        </script>
+    </body>
+
+</html>
