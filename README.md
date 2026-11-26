@@ -1,15 +1,22 @@
-# Diego Hernández Delgado Portfolio
+# Diego Hernández Delgado
 
-A static portfolio hosted on GitHub Pages. The homepage introduces my current work and links to early web projects, including the Watch-It storefront prototype, a canvas drawing exercise, and JavaScript demos.
+My personal portfolio, hosted on [GitHub Pages](https://diegohuesos.github.io/). The homepage introduces my work as a software engineer and collects early experiments with HTML, CSS, and JavaScript.
+
+## Featured demos
+
+- [Watch-It](projects/watch-it/index.html) is a storefront prototype with product pages and a simulated checkout.
+- [Canvas drawing](projects/canvas/dibujo.html) is an interactive drawing exercise.
+- [Tile game](projects/videoGame/villa.html) is an early browser game with keyboard controls.
+- [To-do list](projects/toDoList/index.html) is a small task-list interface.
 
 ## Run locally
 
-From the repository root, start Python’s static server.
+From the repository root, start a static server with Python 3.
 
-```sh
+~~~sh
 python -m http.server 8000 --bind 127.0.0.1
-```
+~~~
 
-Open [localhost:8000](http://localhost:8000) in a browser. The site needs no build step. Styles and fonts from external providers require internet access.
+Open [localhost:8000](http://localhost:8000). External styles and fonts require internet access.
 
-The demos live in [projects](projects/). For my current professional experience, see [LinkedIn](https://www.linkedin.com/in/diego-hd/).
+Find my current experience on [LinkedIn](https://www.linkedin.com/in/diego-hd/).
